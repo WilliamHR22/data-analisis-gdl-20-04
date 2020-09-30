@@ -31,11 +31,6 @@ Vamos a ver cómo funcionan.
 
 > He elegido enseñar el operador `loc` desde el principio. Usar el `operador de indexación` sin `loc` o `iloc`, aunque pareciera mejor por su similitud a las `listas` se presta a muchas confusiones y puede acarrear muchos errores. Creo que es mejor acostumbrarse a ser específicos al respecto de si estamos pidiendo los índices por su nombre o por su posición.
 
-[**`Ejemplo 2`**](Ejemplo-02/series.ipynb)
-[**`Reto 1`**](Reto-01/series.ipynb)
-
----
-
 <ins>Métodos avanzados de indexación</ins>
 
 Podemos usar otros métodos de indexación en las `Series` que resultan súmamente útiles a la hora de explorar y procesar datos.
@@ -44,10 +39,7 @@ Podemos elegir, por ejemplo, rangos de datos usando una sintaxis como la siguien
 
 `serie.loc[4:23]`
 
->
-
-[**`Ejemplo 3`**](Ejemplo-03/indexacion_de_series.ipynb)
-[**`Reto 2`**](Reto-02/indexacion_de_series.ipynb)
+[**`Ejemplo y Reto 2`**](Ejemplo-02/series.ipynb)
 
 ---
 
@@ -59,12 +51,9 @@ Los `DataFrames` son bidimensionales, tienen filas y columnas. Cada columna es u
 
 <div style="padding: 10px; margin: 20px"><img src='./Imgs/sesion-4_23.png'></div>
 
-Veamos cómo funcionan.
+Veamos cómo funcionan. 
 
-> 
-
-[**`Ejemplo 4`**](Ejemplo-04/dataframes.ipynb)
-[**`Reto 3`**](Reto-03/dataframes.ipynb)
+[**`Ejemplo y Reto 3`**](Ejemplo-03/dataframes.ipynb)
 
 ---
 
@@ -72,14 +61,11 @@ Veamos cómo funcionan.
 
 Podemos agregar, reasignar y eliminar columnas de nuestros `DataFrames`. La sintaxis es muy parecida a la que se usa con los `diccionarios`.
 
-> 
-
-[**`Ejemplo 5`**](Ejemplo-05/manipulacion_de_columnas.ipynb)
-[**`Reto 4`**](Reto-04/manipulacion_de_columnas.ipynb)
+[**`Ejemplo y Reto 4`**](Ejemplo-04/manipulacion_de_columnas.ipynb)
 
 ---
 
-<ins>Lectura de archivos JSON</ins>
+<ins>Lectura de archivos JSON y CSV</ins>
 
 Uno de los formatos más comunes en los que vamos a encontrar conjuntos de datos es el formato JSON. Como probablemente ya sabrás, el formato JSON se parece bastante al formato que tienen los `diccionarios` de Python:
 
@@ -94,9 +80,7 @@ Uno de los formatos más comunes en los que vamos a encontrar conjuntos de datos
 
 Vamos a aprender a leer archivos JSON y a convertirlos en `DataFrames`.
 
-> Lectura de CSVs y adquisición de datos por medio de APIs y Bases de Datos se estudian más adelante en el módulo.
-
-[**`Ejemplo 6`**](Ejemplo-06/lectura_de_json.ipynb)
+[**`Ejemplo y Reto 5`**](Ejemplo-05/lectura_de_json.ipynb)
 
 ---
 
@@ -108,9 +92,7 @@ Vamos a ver algunas herramientas básicas que tienen los `DataFrames` para explo
 
 > Por ahora estamos haciendo una exploración muy básica. Lo que importa es que el alumno entienda los principios básicos de cómo crear `DataFrames` a partir de conjuntos de datos existentes. En la sesión que sigue se verá Análisis Exploratorio a más profundidad.
 
-[**`Ejemplo 7`**](Ejemplo-07/aed.ipynb)
-[**`Reto 5`**](Reto-05/aed.ipynb)
-
+[**`Ejemplo 6`**](Ejemplo-06/aed.ipynb)
 ---
 
 ### 3. Postwork
