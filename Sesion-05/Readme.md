@@ -34,9 +34,8 @@ Vamos a ver cómo es que funcionan.
 >
 
 [**`Ejemplo y Reto 1`**](Ejemplo-01/funciones_vectorizadas.ipynb)
-s
----
 
+---
 <ins>Agregaciones</ins>
 
 Las `agregaciones` son una variación de las funciones vectorizadas. Lo que hacen es tomar un arreglo (una `Serie`, por ejemplo), aplicar una operación a todos los elementos y regresar un resultado único que es la `agregación` o `reducción`  del arreglo. Una `agregación` se ve así:
