@@ -6,7 +6,7 @@ Espero les sea de utilidad!
 
 ---
 Ricardo Torres
-Github: https://github.com/rctorr
-Twitter: https://twitter.com/rctorr
-Blog: https://rctorr.wordpress.com
-Tumblr: https://rctorr.tumblr.com
+- Github: https://github.com/rctorr
+- Twitter: https://twitter.com/rctorr
+- Blog: https://rctorr.wordpress.com
+- Tumblr: https://rctorr.tumblr.com
